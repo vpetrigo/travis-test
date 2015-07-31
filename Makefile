@@ -1,4 +1,4 @@
-INC = ../Catch/include
+INC = Catch/include
 SRC = main.cpp
 
 all: $(SRC)
