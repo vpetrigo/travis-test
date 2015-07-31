@@ -28,5 +28,5 @@ before_script:
     git clone https://github.com/philsquared/Catch
     
 script:
-   - make CXX=$COMPILER
+   - make CXX=$COMPILER CXXFLAGS="-lstdc++"
    - ./test
